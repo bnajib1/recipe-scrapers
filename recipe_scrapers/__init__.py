@@ -499,6 +499,7 @@ from .primaledgehealth import PrimalEdgeHealth
 from .projectgezond import ProjectGezond
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
+from .purewow import PureWow
 from .purplecarrot import PurpleCarrot
 from .quakeroats import QuakerOats
 from .quitoque import QuiToque
@@ -1262,6 +1263,7 @@ SCRAPERS = {
     ProjectGezond.host(): ProjectGezond,
     Przepisy.host(): Przepisy,
     PurelyPope.host(): PurelyPope,
+    PureWow.host(): PureWow,
     PurpleCarrot.host(): PurpleCarrot,
     QuakerOats.host(): QuakerOats,
     QuiToque.host(): QuiToque,
